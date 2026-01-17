@@ -99,7 +99,7 @@ adventRTL/
 
 MIT License - Copyright (c) 2026 Victor Muñoz
 
-All problem statements and test cases are original work. No third-party copyright material is included.
+All problem statements and test cases included in this repository are original work. No third-party copyright material is included.
 
 ## TODO
 
