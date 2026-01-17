@@ -10,7 +10,7 @@ This project implements solutions for Advent of Code 2025 puzzles using RTL (Reg
 
 | Day | Problem | Algorithm | Status |
 |-----|---------|-----------|--------|
-| 5 | Print Queue | BRAM merge sort, range merge, binary search | Complete - formal verification with SymbiYosys |
+| 5 | Range sort/merge/traversal | BRAM merge sort, range merge, binary search | Complete - formal verification with SymbiYosys |
 | 9 | Maximum Rectangle in Polygon | Rectangle finding, O(N³) with pruning | Complete - deployed to TangNano 9K FPGA |
 
 ## Requirements
