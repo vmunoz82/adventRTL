@@ -1,0 +1,13 @@
+[options]
+mode prove
+depth 15
+
+[engines]
+smtbmc z3
+
+[script]
+read_ilang generated/range_merger.il
+prep -top top
+
+[files]
+generated/range_merger.il

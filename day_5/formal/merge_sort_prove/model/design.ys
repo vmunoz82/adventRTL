@@ -1,0 +1,7 @@
+# running in formal/merge_sort_prove/src/
+read_ilang ../../../generated/merge_sort.il
+prep -top top
+
+hierarchy -simcheck
+write_jny -no-connections ../model/design.json
+write_rtlil ../model/design.il

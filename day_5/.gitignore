@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+
+# Testing
+.hypothesis/
+.pytest_cache/
+
+# Formal verification artifacts
+*.vcd
+*.il
+hardware_merge_sort_formal_bmc/
+hardware_merge_sort_formal_prove/
+
+# Logs
+*.log

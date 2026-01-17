@@ -1,0 +1,7 @@
+# running in formal/range_merger_prove/src/
+read_ilang generated/range_merger.il
+prep -top top
+
+hierarchy -simcheck
+write_jny -no-connections ../model/design.json
+write_rtlil ../model/design.il

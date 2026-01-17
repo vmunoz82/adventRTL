@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+<testsuite timestamp="2026-01-17T03:38:39" hostname="cc90dd1ca085" package="merge_sort" id="0" name="bmc" tests="17" errors="0" failures="3" time="3" skipped="15">
+<properties>
+<property name="os" value="Linux"/>
+<property name="expect" value="PASS"/>
+<property name="status" value="FAIL"/>
+</properties>
+<testcase classname="bmc" name="build execution" time="0">
+<failure type="FAIL" message="Task returned status FAIL." />
+</testcase>
+<testcase classname="bmc" name="Property COVER in top at /home/victor/advent/range_merger/formal/merge_sort.py:196" time="0" type="COVER" location="/home/victor/advent/range_merger/formal/merge_sort.py:196" id="$165">
+<skipped />
+</testcase>
+<testcase classname="bmc" name="Property COVER in top at /home/victor/advent/range_merger/formal/merge_sort.py:196" time="0" type="COVER" location="/home/victor/advent/range_merger/formal/merge_sort.py:196" id="$172">
+<skipped />
+</testcase>
+<testcase classname="bmc" name="Property COVER in top at /home/victor/advent/range_merger/formal/merge_sort.py:199" time="0" type="COVER" location="/home/victor/advent/range_merger/formal/merge_sort.py:199" id="$175">
+<skipped />
+</testcase>
+<testcase classname="bmc" name="Property COVER in top at /home/victor/advent/range_merger/formal/merge_sort.py:202" time="0" type="COVER" location="/home/victor/advent/range_merger/formal/merge_sort.py:202" id="$178">
+<skipped />
+</testcase>
+<testcase classname="bmc" name="Property COVER in top at /home/victor/advent/range_merger/formal/merge_sort.py:205" time="0" type="COVER" location="/home/victor/advent/range_merger/formal/merge_sort.py:205" id="$181">
+<skipped />
+</testcase>
+<testcase classname="bmc" name="Property ASSERT in top at /home/victor/advent/range_merger/formal/merge_sort.py:143" time="0" type="ASSERT" location="/home/victor/advent/range_merger/formal/merge_sort.py:143" id="$100">
+<skipped />
+</testcase>
+<testcase classname="bmc" name="Property ASSERT in top at /home/victor/advent/range_merger/formal/merge_sort.py:151" time="0" type="ASSERT" location="/home/victor/advent/range_merger/formal/merge_sort.py:151" id="$115">
+<skipped />
+</testcase>
+<testcase classname="bmc" name="Property ASSERT in top at /home/victor/advent/range_merger/formal/merge_sort.py:156" time="0" type="ASSERT" location="/home/victor/advent/range_merger/formal/merge_sort.py:156" id="$130">
+<skipped />
+</testcase>
+<testcase classname="bmc" name="Property ASSERT in top at /home/victor/advent/range_merger/formal/merge_sort.py:161" time="0" type="ASSERT" location="/home/victor/advent/range_merger/formal/merge_sort.py:161" id="$145">
+<skipped />
+</testcase>
+<testcase classname="bmc" name="Property ASSERT in top at /home/victor/advent/range_merger/formal/merge_sort.py:176" time="0" type="ASSERT" location="/home/victor/advent/range_merger/formal/merge_sort.py:176" id="$152" tracefile="engine_0/trace.vcd">
+<failure type="ASSERT" message="Property ASSERT in top at /home/victor/advent/range_merger/formal/merge_sort.py:176 failed. Trace file: engine_0/trace.vcd" />
+</testcase>
+<testcase classname="bmc" name="Property ASSERT in top at /home/victor/advent/range_merger/formal/merge_sort.py:180" time="0" type="ASSERT" location="/home/victor/advent/range_merger/formal/merge_sort.py:180" id="$157" tracefile="engine_0/trace.vcd">
+<failure type="ASSERT" message="Property ASSERT in top at /home/victor/advent/range_merger/formal/merge_sort.py:180 failed. Trace file: engine_0/trace.vcd" />
+</testcase>
+<testcase classname="bmc" name="Property ASSERT in top at /home/victor/advent/range_merger/formal/merge_sort.py:184" time="0" type="ASSERT" location="/home/victor/advent/range_merger/formal/merge_sort.py:184" id="$160">
+<skipped />
+</testcase>
+<testcase classname="bmc" name="Property ASSERT in top at /home/victor/advent/range_merger/formal/merge_sort.py:103" time="0" type="ASSERT" location="/home/victor/advent/range_merger/formal/merge_sort.py:103" id="$41">
+<skipped />
+</testcase>
+<testcase classname="bmc" name="Property ASSERT in top at /home/victor/advent/range_merger/formal/merge_sort.py:107" time="0" type="ASSERT" location="/home/victor/advent/range_merger/formal/merge_sort.py:107" id="$48">
+<skipped />
+</testcase>
+<testcase classname="bmc" name="Property ASSERT in top at /home/victor/advent/range_merger/formal/merge_sort.py:111" time="0" type="ASSERT" location="/home/victor/advent/range_merger/formal/merge_sort.py:111" id="$55">
+<skipped />
+</testcase>
+<testcase classname="bmc" name="Property ASSERT in top at /home/victor/advent/range_merger/formal/merge_sort.py:130" time="0" type="ASSERT" location="/home/victor/advent/range_merger/formal/merge_sort.py:130" id="$70">
+<skipped />
+</testcase>
+<testcase classname="bmc" name="Property ASSERT in top at /home/victor/advent/range_merger/formal/merge_sort.py:138" time="0" type="ASSERT" location="/home/victor/advent/range_merger/formal/merge_sort.py:138" id="$85">
+<skipped />
+</testcase>
+<system-out>SBY  3:38:34 [formal/merge_sort_bmc] Removing directory '/home/victor/advent/range_merger/formal/merge_sort_bmc'.
+SBY  3:38:34 [formal/merge_sort_bmc] Copy '/home/victor/advent/range_merger/generated/merge_sort.il' to '/home/victor/advent/range_merger/formal/merge_sort_bmc/src/merge_sort.il'.
+SBY  3:38:34 [formal/merge_sort_bmc] engine_0: smtbmc z3
+SBY  3:38:34 [formal/merge_sort_bmc] base: starting process &quot;cd formal/merge_sort_bmc/src; yosys -ql ../model/design.log ../model/design.ys&quot;
+SBY  3:38:35 [formal/merge_sort_bmc] base: finished (returncode=0)
+SBY  3:38:35 [formal/merge_sort_bmc] smt2: starting process &quot;cd formal/merge_sort_bmc/model; yosys -ql design_smt2.log design_smt2.ys&quot;
+SBY  3:38:35 [formal/merge_sort_bmc] smt2: finished (returncode=0)
+SBY  3:38:35 [formal/merge_sort_bmc] engine_0: starting process &quot;cd formal/merge_sort_bmc; yosys-smtbmc -s z3 --presat --noprogress -t 60  --append 0 --dump-vcd engine_0/trace.vcd --dump-vlogtb engine_0/trace_tb.v --dump-smtc engine_0/trace.smtc model/design_smt2.smt2&quot;
+SBY  3:38:35 [formal/merge_sort_bmc] engine_0: ##   0:00:00  Solver: z3
+SBY  3:38:35 [formal/merge_sort_bmc] engine_0: ##   0:00:00  Checking assumptions in step 0..
+SBY  3:38:35 [formal/merge_sort_bmc] engine_0: ##   0:00:00  Checking assertions in step 0..
+SBY  3:38:35 [formal/merge_sort_bmc] engine_0: ##   0:00:00  Checking assumptions in step 1..
+SBY  3:38:35 [formal/merge_sort_bmc] engine_0: ##   0:00:00  Checking assertions in step 1..
+SBY  3:38:35 [formal/merge_sort_bmc] engine_0: ##   0:00:00  Checking assumptions in step 2..
+SBY  3:38:35 [formal/merge_sort_bmc] engine_0: ##   0:00:00  Checking assertions in step 2..
+SBY  3:38:35 [formal/merge_sort_bmc] engine_0: ##   0:00:00  Checking assumptions in step 3..
+SBY  3:38:35 [formal/merge_sort_bmc] engine_0: ##   0:00:00  Checking assertions in step 3..
+SBY  3:38:35 [formal/merge_sort_bmc] engine_0: ##   0:00:00  Checking assumptions in step 4..
+SBY  3:38:35 [formal/merge_sort_bmc] engine_0: ##   0:00:00  Checking assertions in step 4..
+SBY  3:38:35 [formal/merge_sort_bmc] engine_0: ##   0:00:00  Checking assumptions in step 5..
+SBY  3:38:35 [formal/merge_sort_bmc] engine_0: ##   0:00:00  Checking assertions in step 5..
+SBY  3:38:35 [formal/merge_sort_bmc] engine_0: ##   0:00:00  Checking assumptions in step 6..
+SBY  3:38:35 [formal/merge_sort_bmc] engine_0: ##   0:00:00  Checking assertions in step 6..
+SBY  3:38:36 [formal/merge_sort_bmc] engine_0: ##   0:00:00  Checking assumptions in step 7..
+SBY  3:38:36 [formal/merge_sort_bmc] engine_0: ##   0:00:00  Checking assertions in step 7..
+SBY  3:38:36 [formal/merge_sort_bmc] engine_0: ##   0:00:01  Checking assumptions in step 8..
+SBY  3:38:36 [formal/merge_sort_bmc] engine_0: ##   0:00:01  Checking assertions in step 8..
+SBY  3:38:36 [formal/merge_sort_bmc] engine_0: ##   0:00:01  Checking assumptions in step 9..
+SBY  3:38:37 [formal/merge_sort_bmc] engine_0: ##   0:00:01  Checking assertions in step 9..
+SBY  3:38:37 [formal/merge_sort_bmc] engine_0: ##   0:00:02  Checking assumptions in step 10..
+SBY  3:38:37 [formal/merge_sort_bmc] engine_0: ##   0:00:02  Checking assertions in step 10..
+SBY  3:38:38 [formal/merge_sort_bmc] engine_0: ##   0:00:03  Checking assumptions in step 11..
+SBY  3:38:38 [formal/merge_sort_bmc] engine_0: ##   0:00:03  Checking assertions in step 11..
+SBY  3:38:39 [formal/merge_sort_bmc] engine_0: ##   0:00:03  BMC failed!
+SBY  3:38:39 [formal/merge_sort_bmc] engine_0: ##   0:00:03  Assert failed in top: /home/victor/advent/range_merger/formal/merge_sort.py:176 ($152)
+SBY  3:38:39 [formal/merge_sort_bmc] engine_0: ##   0:00:03  Assert failed in top: /home/victor/advent/range_merger/formal/merge_sort.py:180 ($157)
+SBY  3:38:39 [formal/merge_sort_bmc] engine_0: ##   0:00:03  Writing trace to VCD file: engine_0/trace.vcd
+SBY  3:38:39 [formal/merge_sort_bmc] engine_0: ##   0:00:03  Writing trace to Verilog testbench: engine_0/trace_tb.v
+SBY  3:38:39 [formal/merge_sort_bmc] engine_0: ##   0:00:03  Writing trace to constraints file: engine_0/trace.smtc
+SBY  3:38:39 [formal/merge_sort_bmc] engine_0: ##   0:00:03  Status: failed
+SBY  3:38:39 [formal/merge_sort_bmc] engine_0: finished (returncode=1)
+SBY  3:38:39 [formal/merge_sort_bmc] engine_0: Status returned by engine: FAIL
+SBY  3:38:39 [formal/merge_sort_bmc] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:04 (4)
+SBY  3:38:39 [formal/merge_sort_bmc] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:03 (3)
+SBY  3:38:39 [formal/merge_sort_bmc] summary: engine_0 (smtbmc z3) returned FAIL
+SBY  3:38:39 [formal/merge_sort_bmc] summary: counterexample trace: formal/merge_sort_bmc/engine_0/trace.vcd
+SBY  3:38:39 [formal/merge_sort_bmc] DONE (FAIL, rc=2)
+</system-out>
+<system-err>
+</system-err>
+</testsuite>
+</testsuites>

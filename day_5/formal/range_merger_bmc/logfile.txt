@@ -1,0 +1,62 @@
+SBY  3:39:12 [formal/range_merger_bmc] Removing directory '/home/victor/advent/range_merger/formal/range_merger_bmc'.
+SBY  3:39:12 [formal/range_merger_bmc] Copy '/home/victor/advent/range_merger/generated/range_merger.il' to '/home/victor/advent/range_merger/formal/range_merger_bmc/src/range_merger.il'.
+SBY  3:39:12 [formal/range_merger_bmc] engine_0: smtbmc z3
+SBY  3:39:12 [formal/range_merger_bmc] base: starting process "cd formal/range_merger_bmc/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY  3:39:12 [formal/range_merger_bmc] base: finished (returncode=0)
+SBY  3:39:12 [formal/range_merger_bmc] smt2: starting process "cd formal/range_merger_bmc/model; yosys -ql design_smt2.log design_smt2.ys"
+SBY  3:39:12 [formal/range_merger_bmc] smt2: finished (returncode=0)
+SBY  3:39:12 [formal/range_merger_bmc] engine_0: starting process "cd formal/range_merger_bmc; yosys-smtbmc -s z3 --presat --noprogress -t 30  --append 0 --dump-vcd engine_0/trace.vcd --dump-vlogtb engine_0/trace_tb.v --dump-smtc engine_0/trace.smtc model/design_smt2.smt2"
+SBY  3:39:12 [formal/range_merger_bmc] engine_0: ##   0:00:00  Solver: z3
+SBY  3:39:12 [formal/range_merger_bmc] engine_0: ##   0:00:00  Checking assumptions in step 0..
+SBY  3:39:12 [formal/range_merger_bmc] engine_0: ##   0:00:00  Checking assertions in step 0..
+SBY  3:39:12 [formal/range_merger_bmc] engine_0: ##   0:00:00  Checking assumptions in step 1..
+SBY  3:39:12 [formal/range_merger_bmc] engine_0: ##   0:00:00  Checking assertions in step 1..
+SBY  3:39:12 [formal/range_merger_bmc] engine_0: ##   0:00:00  Checking assumptions in step 2..
+SBY  3:39:12 [formal/range_merger_bmc] engine_0: ##   0:00:00  Checking assertions in step 2..
+SBY  3:39:13 [formal/range_merger_bmc] engine_0: ##   0:00:00  Checking assumptions in step 3..
+SBY  3:39:13 [formal/range_merger_bmc] engine_0: ##   0:00:00  Checking assertions in step 3..
+SBY  3:39:13 [formal/range_merger_bmc] engine_0: ##   0:00:00  Checking assumptions in step 4..
+SBY  3:39:13 [formal/range_merger_bmc] engine_0: ##   0:00:00  Checking assertions in step 4..
+SBY  3:39:13 [formal/range_merger_bmc] engine_0: ##   0:00:00  Checking assumptions in step 5..
+SBY  3:39:13 [formal/range_merger_bmc] engine_0: ##   0:00:00  Checking assertions in step 5..
+SBY  3:39:13 [formal/range_merger_bmc] engine_0: ##   0:00:00  Checking assumptions in step 6..
+SBY  3:39:13 [formal/range_merger_bmc] engine_0: ##   0:00:00  Checking assertions in step 6..
+SBY  3:39:14 [formal/range_merger_bmc] engine_0: ##   0:00:01  Checking assumptions in step 7..
+SBY  3:39:14 [formal/range_merger_bmc] engine_0: ##   0:00:01  Checking assertions in step 7..
+SBY  3:39:16 [formal/range_merger_bmc] engine_0: ##   0:00:03  Checking assumptions in step 8..
+SBY  3:39:16 [formal/range_merger_bmc] engine_0: ##   0:00:03  Checking assertions in step 8..
+SBY  3:39:19 [formal/range_merger_bmc] engine_0: ##   0:00:06  Checking assumptions in step 9..
+SBY  3:39:19 [formal/range_merger_bmc] engine_0: ##   0:00:06  Checking assertions in step 9..
+SBY  3:39:23 [formal/range_merger_bmc] engine_0: ##   0:00:11  Checking assumptions in step 10..
+SBY  3:39:23 [formal/range_merger_bmc] engine_0: ##   0:00:11  Checking assertions in step 10..
+SBY  3:39:30 [formal/range_merger_bmc] engine_0: ##   0:00:18  Checking assumptions in step 11..
+SBY  3:39:30 [formal/range_merger_bmc] engine_0: ##   0:00:18  Checking assertions in step 11..
+SBY  3:39:39 [formal/range_merger_bmc] engine_0: ##   0:00:26  Checking assumptions in step 12..
+SBY  3:39:39 [formal/range_merger_bmc] engine_0: ##   0:00:26  Checking assertions in step 12..
+SBY  3:39:45 [formal/range_merger_bmc] engine_0: ##   0:00:32  Checking assumptions in step 13..
+SBY  3:39:45 [formal/range_merger_bmc] engine_0: ##   0:00:32  Checking assertions in step 13..
+SBY  3:40:02 [formal/range_merger_bmc] engine_0: ##   0:00:49  Checking assumptions in step 14..
+SBY  3:40:02 [formal/range_merger_bmc] engine_0: ##   0:00:49  Checking assertions in step 14..
+SBY  3:40:13 [formal/range_merger_bmc] engine_0: ##   0:01:00  Checking assumptions in step 15..
+SBY  3:40:13 [formal/range_merger_bmc] engine_0: ##   0:01:00  Checking assertions in step 15..
+SBY  3:40:26 [formal/range_merger_bmc] engine_0: ##   0:01:13  Checking assumptions in step 16..
+SBY  3:40:26 [formal/range_merger_bmc] engine_0: ##   0:01:14  Checking assertions in step 16..
+SBY  3:40:44 [formal/range_merger_bmc] engine_0: ##   0:01:31  Checking assumptions in step 17..
+SBY  3:40:44 [formal/range_merger_bmc] engine_0: ##   0:01:31  Checking assertions in step 17..
+SBY  3:41:01 [formal/range_merger_bmc] engine_0: ##   0:01:48  Checking assumptions in step 18..
+SBY  3:41:01 [formal/range_merger_bmc] engine_0: ##   0:01:48  Checking assertions in step 18..
+SBY  3:41:27 [formal/range_merger_bmc] engine_0: ##   0:02:15  Checking assumptions in step 19..
+SBY  3:41:27 [formal/range_merger_bmc] engine_0: ##   0:02:15  Checking assertions in step 19..
+SBY  3:42:05 [formal/range_merger_bmc] engine_0: ##   0:02:52  Checking assumptions in step 20..
+SBY  3:42:05 [formal/range_merger_bmc] engine_0: ##   0:02:52  Checking assertions in step 20..
+SBY  3:42:41 [formal/range_merger_bmc] engine_0: ##   0:03:29  Checking assumptions in step 21..
+SBY  3:42:41 [formal/range_merger_bmc] engine_0: ##   0:03:29  Checking assertions in step 21..
+SBY  3:43:27 [formal/range_merger_bmc] engine_0: ##   0:04:14  Checking assumptions in step 22..
+SBY  3:43:27 [formal/range_merger_bmc] engine_0: ##   0:04:14  Checking assertions in step 22..
+SBY  3:43:59 [formal/range_merger_bmc] engine_0: ##   0:04:46  Checking assumptions in step 23..
+SBY  3:43:59 [formal/range_merger_bmc] engine_0: ##   0:04:46  Checking assertions in step 23..
+SBY  3:44:59 [formal/range_merger_bmc] engine_0: ##   0:05:46  waiting for solver (1 minute)
+SBY  3:45:17 [formal/range_merger_bmc] engine_0: ##   0:06:04  Checking assumptions in step 24..
+SBY  3:45:17 [formal/range_merger_bmc] engine_0: ##   0:06:04  Checking assertions in step 24..
+SBY  3:46:01 [formal/range_merger_bmc] engine_0: ##   0:06:48  Checking assumptions in step 25..
+SBY  3:46:01 [formal/range_merger_bmc] engine_0: ##   0:06:48  Checking assertions in step 25..

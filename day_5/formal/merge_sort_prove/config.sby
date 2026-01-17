@@ -1,0 +1,13 @@
+[options]
+mode prove
+depth 20
+
+[engines]
+smtbmc z3
+
+[script]
+read_ilang ../../../generated/merge_sort.il
+prep -top top
+
+[files]
+generated/merge_sort.il

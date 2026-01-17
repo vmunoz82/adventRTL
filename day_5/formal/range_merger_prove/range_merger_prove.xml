@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+<testsuite timestamp="2026-01-16T17:13:31" hostname="013c969a5bb7" package="range_merger" id="0" name="prove" tests="1" errors="1" failures="0" time="0" skipped="0">
+<properties>
+<property name="os" value="Linux"/>
+<property name="expect" value="PASS"/>
+<property name="status" value="ERROR"/>
+</properties>
+<testcase classname="prove" name="prove" time="0">
+<error type="ERROR"/>
+</testcase>
+<system-out>SBY 17:13:31 [formal/range_merger_bmc] Removing directory '/home/victor/advent/range_merger/formal/range_merger_bmc'.
+SBY 17:13:31 [formal/range_merger_prove] Removing directory '/home/victor/advent/range_merger/formal/range_merger_prove'.
+SBY 17:13:31 [formal/range_merger_prove] Copy '/home/victor/advent/range_merger/generated/range_merger.il' to '/home/victor/advent/range_merger/formal/range_merger_prove/src/range_merger.il'.
+SBY 17:13:31 [formal/range_merger_prove] engine_0: smtbmc z3
+SBY 17:13:31 [formal/range_merger_prove] base: starting process &quot;cd formal/range_merger_prove/src; yosys -ql ../model/design.log ../model/design.ys&quot;
+SBY 17:13:31 [formal/range_merger_prove] base: ERROR: Can't open input file `generated/range_merger.il' for reading: No such file or directory
+SBY 17:13:31 [formal/range_merger_prove] base: finished (returncode=1)
+SBY 17:13:31 [formal/range_merger_prove] base: task failed. ERROR.
+SBY 17:13:31 [formal/range_merger_prove] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 17:13:31 [formal/range_merger_prove] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 17:13:31 [formal/range_merger_prove] DONE (ERROR, rc=16)
+</system-out>
+<system-err>
+</system-err>
+</testsuite>
+</testsuites>

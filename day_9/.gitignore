@@ -1,0 +1,11 @@
+# Build artifacts
+generated/obj_dir/
+verilator_benchs/obj_dir/
+*.vcd
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+# Generated Verilog files
+generated/*.v
